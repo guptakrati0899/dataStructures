@@ -110,42 +110,11 @@ public class MyLinkedList<K> {
 	         
 			}
 			
+		
+			
+		}
+		
+			
 	
 		
-			/*public INode InsertPos(INode myNode, int position, int data, INode newNode1) {
-				data = 40;
-				INode tempNode = head;
-				if (position < 2)
-					System.out.print("Invalid position");
-
-				// if position is 1 then new node is
-				// set infornt of head node
-				// head node is changing.
-				if (position == 1) {
-					INode newNode1 = 40;
-					newNode1.nextNode = headNode;
-					head = newNode1;
-				} else {
-					while (position-- != 0) {
-						if (position == 1) {
-							// adding Node at required position
-							Node newNode = GetNode(data);
-
-							// Making the new Node to point to
-							// the old Node at the same position
-							newNode.nextNode = headNode.nextNode;
-
-							// Replacing current with new Node
-							// to the old Node to point to the new Node
-							headNode.nextNode = newNode;
-							break;
-						}
-						headNode = headNode.nextNode;
-					}
-					if (position != 1)
-						System.out.print("Position out of range");
-				}
-				return head;
-			} */
-}
 
